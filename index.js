@@ -9,14 +9,14 @@ function whisper(string){
 whisper("HELLO")
 
 function logShout(string){
-  return string.toUpperCase();
+  console.log(string.toUpperCase());
 }
-console.log(logShout("hello"));
+logShout("hello");
 
 function logWhisper(string){
-  return string.toLowerCase();
+  console.log( string.toLowerCase());
 }
-console.log(logWhisper("HELLO"));
+logWhisper("HELLO");
 
 function sayHiToGrandma(string){
     if (string === "hello"){
