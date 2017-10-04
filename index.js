@@ -19,5 +19,11 @@ function logWhisper(string){
 console.log(logWhisper("hello"));
 
 function sayHiToGrandma(string){
-
+    if (string){
+      console.log("I can't hear you!");
+    }
+    else{
+      
+    }
 }
+sayHiToGrandma("hello");
